@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 60%;
+    color: #26262699;
+}
+
+.navbar-btn button {
+    background-color:#B8C2CE;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+}
